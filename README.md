@@ -6,4 +6,4 @@
 
 #### HTML, CSS and Javascript(Local Storage)
 
-### Demo : https://todo-app.netlify.app/
+### Demo : https://app-todo-2.netlify.app/
