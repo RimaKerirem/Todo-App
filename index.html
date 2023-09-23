@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Todo App</title>
+  </head>
+  <body class="dark">
+    <div class="container">
+      <div class="top">
+        <h1 class="title">Todo</h1>
+        <img src="./images/icon-sun.svg" alt="" class="theme" />
+      </div>
+
+      <div class="input-task">
+        <div class="circle"></div>
+        <input type="text" name="" id="input" placeholder="Create a new todo" />
+      </div>
+
+      <div class="box">
+        <div class="tasks"></div>
+
+        <div class="box-bottom">
+          <p class="items-number"><span></span> items left</p>
+
+          <ul class="list-desktop">
+            <li id="all" class="active">All</li>
+            <li id="task-active">Active</li>
+            <li id="task-completed">Completed</li>
+          </ul>
+
+          <p class="clear">Clear Completed</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
